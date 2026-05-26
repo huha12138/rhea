@@ -1,0 +1,62 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "expansion_single",
+  "dataset_name": "mt-eval",
+  "dataset_size": 201857,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/wckwan/MT-Eval@d6b37dce6eae16343c89ba448bfb8aff82e5864d/expansion_single.jsonl": {
+      "num_bytes": 207770,
+      "checksum": null
+    }
+  },
+  "download_size": 207770,
+  "features": {
+    "conv": [
+      {
+        "user": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "sys": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "id": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "do_inference": {
+          "dtype": "bool",
+          "_type": "Value"
+        },
+        "inst": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 409627,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 201857,
+      "num_examples": 70,
+      "dataset_name": "mt-eval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

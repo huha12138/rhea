@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "recollection_multi_cls",
+  "dataset_name": "mt-eval",
+  "dataset_size": 137931,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/wckwan/MT-Eval@d6b37dce6eae16343c89ba448bfb8aff82e5864d/recollection_multi_cls.jsonl": {
+      "num_bytes": 143649,
+      "checksum": null
+    }
+  },
+  "download_size": 143649,
+  "features": {
+    "conv": [
+      {
+        "user": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "sys": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "id": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "do_inference": {
+          "dtype": "bool",
+          "_type": "Value"
+        }
+      }
+    ],
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 281580,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 137931,
+      "num_examples": 10,
+      "dataset_name": "mt-eval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

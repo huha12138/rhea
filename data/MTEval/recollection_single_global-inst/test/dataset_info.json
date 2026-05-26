@@ -1,0 +1,106 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "recollection_single_global-inst",
+  "dataset_name": "mt-eval",
+  "dataset_size": 100183,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/wckwan/MT-Eval@d6b37dce6eae16343c89ba448bfb8aff82e5864d/recollection_single_global-inst.jsonl": {
+      "num_bytes": 114172,
+      "checksum": null
+    }
+  },
+  "download_size": 114172,
+  "features": {
+    "inst_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "inst_args": {
+      "letter": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "end_phrase": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "lang": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "num_bullets": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "num_sentences": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "relation": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "keywords": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "response_options": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "num_placeholder": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "conv": [
+      {
+        "user": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "sys": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "id": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "do_inference": {
+          "dtype": "bool",
+          "_type": "Value"
+        }
+      }
+    ],
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 214355,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 100183,
+      "num_examples": 280,
+      "dataset_name": "mt-eval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
